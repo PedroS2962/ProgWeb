@@ -1,0 +1,30 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>INSIRA UM NOME AQUI</title>
+  </head>
+  <body>
+	<script>
+		function func(){
+			let nome = document.getElementById("nome").value
+			console.log(nome)
+			let telefone = document.getElementById("telefone").value
+			console.log(telefone)
+			let email = document.getElementById("email").value
+			console.log(email)
+		}
+	</script>
+	<form action="#">
+		<label>Nome: </label>
+		<input type="text" id="nome">
+		<br>
+		<label>Telefone: </label>
+		<input type = text id ='telefone'>
+		<br>
+		<label>Email: </label>
+		<input type = text id ='email'>
+		<br>
+	    <p><center><button id ='send' onclick = "func()"> Enviar </button></center><p>
+	</form>	
+  </body>
+</html>
